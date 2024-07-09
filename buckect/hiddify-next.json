@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.4.1.dev/Hiddify-Windows-Portable-x64.zip",
-            "hash": ""
+            "hash": "3ef5a8474becbd6c3f96a1ad19a9781ae18a9f8cc9c28b919947962af8210527"
         }
     },
-    "bin": "Hiddify.exe",
+    "bin": "Hiddify-next/Hiddify.exe",
     "checkver": {
         "github": "https://github.com/hiddify/hiddify-next"
     },
