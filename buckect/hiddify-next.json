@@ -1,0 +1,23 @@
+{
+    "version": "1.4.0",
+    "description": "Hiddify, Internet Freedom Solution",
+    "homepage": "https://hiddify.com",
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.4.1.dev/Hiddify-Windows-Portable-x64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "Hiddify.exe",
+    "checkver": {
+        "github": "https://github.com/hiddify/hiddify-next"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/denoland/deno/releases/download/v$version/Hiddify-Windows-Portable-x64.zip"
+            }
+        }
+    }
+}
