@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.2",
     "description": "Hiddify, Internet Freedom Solution",
     "homepage": "https://hiddify.com",
     "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.4.1.dev/Hiddify-Windows-Portable-x64.zip",
-            "hash": "3ef5a8474becbd6c3f96a1ad19a9781ae18a9f8cc9c28b919947962af8210527"
+            "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.5.2/Hiddify-Windows-Portable-x64.zip",
+            "hash": "dd3a07620301536d7bf205e944c57960420a267b8354938afbc1b8e1828dda5b"
         }
     },
     "bin": "Hiddify-next/Hiddify.exe",
