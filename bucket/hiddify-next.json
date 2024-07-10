@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.5.2/Hiddify-Windows-Portable-x64.zip",
-            "hash": "dd3a07620301536d7bf205e944c57960420a267b8354938afbc1b8e1828dda5b"
+            "hash": "sha256:dd3a07620301536d7bf205e944c57960420a267b8354938afbc1b8e1828dda5b"
         }
     },
     "bin": "Hiddify-next/Hiddify.exe",
@@ -18,6 +18,9 @@
             "64bit": {
                 "url": "https://github.com/denoland/deno/releases/download/v$version/Hiddify-Windows-Portable-x64.zip"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
