@@ -10,6 +10,12 @@
         }
     },
     "bin": "Hiddify-next/Hiddify.exe",
+    "shortcuts": [
+        [
+            "Hiddify-next/Hiddify.exe",
+            "Sourcetree"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/hiddify/hiddify-next"
     },
